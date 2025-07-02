@@ -1,3 +1,5 @@
+/*
+
 //Crea un programma che determini la stagione basandosi sul mese (1-12)usando switch statment
 
 let mese = prompt("Inserisci un mese (1-12):");
@@ -82,3 +84,7 @@ if (eta >0 && eta <= 12) {
         console.log(eta)
         console.log('Controlla la tua età');
     }
+
+
+
+*/
