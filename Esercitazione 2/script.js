@@ -5,28 +5,52 @@ console.log("Hai inserito il mese: " + mese);
 mese = parseInt(mese);
 switch (mese) {
     case 1: 
-        console.log("Inverno");
+        let mese1 = 'Gennaio';        
+        console.log("Tuo mese è "+ mese1 + "è la tua stagione è Inverno");
         break;
     case 2:
-        console.log("Inverno");
+         let mese2 = 'Febbraio';              
+        console.log("Tuo mese è "+ mese2 + "è la tua stagione è Inverno");
         break;
     case 3:
-        console.log("Inverno");
+        let mese3 = 'Marzo';      
+        console.log("Tuo mese è "+ mese3 + "è la tua stagione è Inverno");
         break;
     case 4:
+        let mese4 = 'Aprile';      
+        console.log("Tuo mese è "+ mese4 + "è la tua stagione è Primavera");
+        break;
     case 5:
+        let mese5 = 'Maggio';      
+        console.log("Tuo mese è "+ mese5 + "è la tua stagione è Primavera");
+        break;
     case 6:
-        console.log("Primavera");
+        let mese6 = 'Giugno';      
+        console.log("Tuo mese è "+ mese6 + "è la tua stagione è Primavera");
         break;
     case 7:
+        let mese7 = 'Luglio';      
+        console.log("Tuo mese è "+ mese7 + "è la tua stagione è Verano");
+        break;
     case 8:
-    case 9:     
-        console.log("Estate");
+        let mese8 = 'Agosto';      
+        console.log("Tuo mese è "+ mese8 + "è la tua stagione è Verano");
+        break;
+    case 9:   
+        let mese9 = 'Settembre';      
+        console.log("Tuo mese è "+ mese9 + "è la tua stagione è Verano");
         break;
     case 10:
+        let mese10 = 'Ottobre';      
+        console.log("Tuo mese è "+ mese10 + "è la tua stagione è Autunno");
+        break;
     case 11:
+        let mese11 = 'Novembre';      
+        console.log("Tuo mese è "+ mese11 + "è la tua stagione è Autunno");
+        break;
     case 12:
-        console.log("Autunno");
+        let mese12 = 'Diciembre';      
+        console.log("Tuo mese è "+ mese12 + "è la tua stagione è Autunno");
         break;
 
     default:
