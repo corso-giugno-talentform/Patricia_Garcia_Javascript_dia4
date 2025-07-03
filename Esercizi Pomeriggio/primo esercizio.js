@@ -22,14 +22,39 @@ function calcolatrice (numero1, numero2,operazione){
 } else{
     return console.log('opzione no valida');
 }
-
+0
 }
 */
 // con switch
-
+/*
 let numero1 = parseFloat(prompt("Inserisci il primo numero:"));
 let numero2 = parseFloat(prompt("Inserisci il secondo numero:"));
-let operazione = prompt("Inserisci l'operazione (somma, resta, moltiplicazione, divisione):");
+let operazione = prompt("Inserisci l'operazione (+, -, *, /):");
 console.log(operazione);
 
 calcolatrice(numero1,numero2,operazione);
+
+
+function calcolatrice(numero1, numero2, operazione) {
+    let risultato;
+    switch (operazione) {
+ 
+        case '+':
+            return console.log(risultato = numero1 + numero2);
+        case '-':
+            return console.log(risultato = numero1 - numero2);
+            
+        case '*':
+            return console.log(risultato = numero1 * numero2);
+            
+        case '/':
+            if (numero2 === 0) {
+            return "Errore: Divisione per zero non permessa";
+            }
+            return risultato = numero1 / numero2;
+           
+        default:
+            return "Errore: Operazione non valida";
+    }
+
+   }*/
